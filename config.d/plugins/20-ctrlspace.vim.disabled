@@ -1,0 +1,7 @@
+let g:CtrlSpaceSymbols = { "File": "◯", "CTab": "▣", "Tabs": "▢" }
+"let g:CtrlSpaceSearchTiming = 500
+if executable("ag")
+  let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
+endif
+
+nnoremap <silent><C-t> :CtrlSpace O<CR>
