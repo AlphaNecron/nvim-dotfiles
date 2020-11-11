@@ -1,4 +1,6 @@
 autoload
+YouCompleteMe
+YouCompleteMe/*
 
 # Created by https://www.gitignore.io/api/linux,osx,windows,vim
 
@@ -22,7 +24,8 @@ autoload
 
 # Icon must end with two \r
 Icon
-
+packages
+packages/*
 # Thumbnails
 ._*
 
