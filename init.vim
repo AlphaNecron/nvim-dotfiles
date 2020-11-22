@@ -13,7 +13,6 @@ set shell=sh
 " Modularization
 set nocompatible
 set hidden
-let g:python_host_prog	= '/usr/bin/python2'
 let g:python3_host_prog = '/usr/bin/python3'
 let g:loaded_python_provider = 0
 for config in split(globpath('$HOME/.config/nvim/config.d/', '*.vim'), '\n')
